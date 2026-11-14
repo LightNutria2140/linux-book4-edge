@@ -13,7 +13,7 @@ Thread: https://bugs.launchpad.net/ubuntu-concept/+bug/2084591
 ## Status
 Supported features:
 - [x] Keyboard - needs udev [quirk](https://bugs.launchpad.net/ubuntu-concept/+bug/2084591/comments/87)
-   - [x] Keyboard backlight - via OpenBSD's [samsabi](https://cvsweb.openbsd.org/log/src/sys/dev/i2c/samsabi.c,v?sort=File)
+   - [x] Keyboard backlight - via OpenBSD's [samsabi](https://cvsweb.openbsd.org/log/src/sys/dev/i2c/samsabi.c,v?sort=File) samsung-emuec if not using the module
 - [x] Touchpad
 - [x] USB type-c
   - [x] USB hotplug - see Known issues for charging
@@ -26,7 +26,7 @@ Supported features:
 - [x] Wifi - needs firmware. 14" version also needs a patched board-2.bin as discussed [here](https://github.com/zensanp/linux-book4-edge/issues/3)
 - [x] BT - needs firmware + MAC address must be set [manually](https://github.com/zensanp/linux-book4-edge/issues/5) for device.
 - [x] ADSP and CDSP - need firmware
-  - [x] Battery indicator - needs separate [driver](https://github.com/zensanp/linux-book4-edge/issues/4)
+  - [x] Battery indicator - needs separate [driver](https://github.com/zensanp/linux-book4-edge/issues/4) if not using samsung-emuec module
 - [ ] Audio - speakers are disabled in the 16" dtb on purpose (no HW protection. Proceed at own risk.)
   - [ ] Mic
 - [x] Sleep - Does it work? [Yes]. Does it save power? [Not really].
