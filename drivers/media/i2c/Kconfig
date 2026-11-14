@@ -1791,3 +1791,17 @@ config VIDEO_MAX96717
 endmenu
 
 endif # VIDEO_DEV
+
+config VIDEO_IMX681
+	tristate "Sony IMX681 sensor support"
+	depends on I2C && VIDEO_DEV
+	select V4L2_CCI_I2C
+	help
+	  This is a V4L2 sensor driver for the Sony IMX681 camera sensor.
+
+config VIDEO_IMX681
+tristate "Sony IMX681 sensor support"
+depends on I2C && VIDEO_DEV
+select V4L2_CCI_I2C
+help
+V4L2 sensor driver for Sony IMX681 camera sensor.

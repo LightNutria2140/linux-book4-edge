@@ -782,6 +782,7 @@ static int ov02c10_get_selection(struct v4l2_subdev *sd,
 	case V4L2_SEL_TGT_CROP_DEFAULT:
 		sel->r = crop;
 		return 0;
+	case V4L2_SEL_TGT_NATIVE_SIZE:
 	case V4L2_SEL_TGT_CROP_BOUNDS:
 		sel->r = bounds;
 		return 0;
