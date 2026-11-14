@@ -4,7 +4,7 @@ Linux & DTS to allow booting on the X1E80100 Samsung Galaxy Book4 Edge, derived 
 
 Thread: https://bugs.launchpad.net/ubuntu-concept/+bug/2084591
 
-(Note: This is the 14" tmp branch. 16" dts can be found [here](https://github.com/zensanp/linux-book4-edge/tree/x1e80100-book4e-6.19-playground))
+(Note: This is the 16" tmp branch. 14" dts can be found [here](https://github.com/zensanp/linux-book4-edge/tree/x1e80100-book4e-7.2-14-tmp))
 
 ## Status
 Supported features:
