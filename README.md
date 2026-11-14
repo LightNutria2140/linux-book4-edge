@@ -12,8 +12,8 @@ Supported features:
    - [x] Keyboard backlight - via OpenBSD's [samsabi](https://cvsweb.openbsd.org/log/src/sys/dev/i2c/samsabi.c,v?sort=File)
 - [x] Touchpad
 - [x] USB type-c
-  - [ ] USB hotplug (limited, at least on the 14")
-  - [ ] DP Altmode
+  - [x] USB hotplug (limited, at least on the 14")
+  - [x] DP Altmode
 - [x] UFS storage
 - [x] HDMI port on the right side
 - [x] Built-in display - initially fixed using the following [patch](https://bugs.launchpad.net/ubuntu-concept/+bug/2084591/comments/99)
@@ -27,3 +27,4 @@ Supported features:
   - [ ] Mic
 - [x] Sleep - Does it work? [Yes]. Does it save power? [Not really].
 - [x] Webcam - Adapted from the [15.6" X1P42100 Book4 Edge (X1 Plus)](https://github.com/ciscobugger/book4-edge-linux). Needs libcamera patch
+  - [ ] Actually works and show a picture (its a seprate experimental dtb witch can be found in the experiments folder)
