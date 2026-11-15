@@ -13,7 +13,7 @@ Thread: https://bugs.launchpad.net/ubuntu-concept/+bug/2084591
 ## Status
 Supported features:
 - [x] Keyboard - needs udev [quirk](https://bugs.launchpad.net/ubuntu-concept/+bug/2084591/comments/87)
-   - [x] Keyboard backlight - via OpenBSD's [samsabi](https://cvsweb.openbsd.org/log/src/sys/dev/i2c/samsabi.c,v?sort=File) samsung-emuec if not using the module
+   - [x] Keyboard backlight - via OpenBSD's [samsabi](https://cvsweb.openbsd.org/log/src/sys/dev/i2c/samsabi.c,v?sort=File) if not using samsung-emuec module
 - [x] Touchpad
 - [x] USB type-c
   - [x] USB hotplug - see Known issues for charging
