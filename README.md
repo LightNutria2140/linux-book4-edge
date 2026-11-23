@@ -37,7 +37,7 @@ Supported features:
 Boot a kernel built from the 14" branch together with the 16" dtb `x1e80100-samsung-galaxy-book4-edge-16.dtb`, since there is no 16" kernel yet. It is built from `arch/arm64/boot/dts/qcom/x1e80100-samsung-galaxy-book4-edge-16.dts`, which is decompiled from the dtb I use (see the notes above). It was tested to recompile with `dtc`; it has not been built through the kernel's own `make`.
 
 ## Known issues
-- Charging: if no charger was plugged in at boot, connecting one later delivers almost no power (about 0.1 W in my case, even with the official 60 W Samsung charger), and the battery can run flat during use. After a charger has been unplugged, only the official charger charged it again in my tests (a 30 W charger negotiates 15 V / 2 A). The causes are not confirmed and this needs more testing.
+- Charging: if no charger plugged in at boot the battery wont charge no charger other then the official one can negotiate the correct voltage but wont charge the battery 
 - Camera: the sensor is detected, but no picture is shown yet.
 
 ## Credits
